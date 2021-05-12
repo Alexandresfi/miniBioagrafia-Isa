@@ -1,0 +1,145 @@
+body{
+    background-color: black;
+    color: papayawhip;
+    font-style: italic;
+}
+a{
+    text-decoration: none;
+    color: red;
+    padding: 8px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 8px;
+    border:white;
+}
+#titulo{
+    color: papayawhip;
+    text-align: center;
+    font-size: 70px;
+    font-variant: small-caps;
+}
+#GRANDE{
+    background-image: url(/fundos/Isa\ 11.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    
+}
+#text{
+    text-align: center;
+    border-width: 5px;
+    border-style: solid;
+}
+#text1{
+    float: left;
+    margin-right: 10px;
+}
+.section{
+    border: black 5px none;
+    overflow: hidden;
+}
+
+.borda{
+    border-width: 5px;
+    border-style: solid;   
+}
+#text2{
+    float: right;
+    margin-left: 10px;
+}
+#text3{
+    float: left;
+    margin-right: 10px;
+}
+#galeria{
+    border-width: 5px;
+    border-style: solid;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    font-size: 70px;
+}
+.foto{
+    display: inline-block;
+    position: relative;
+}
+.um{
+    background-image: url(/fundos/Isa\ 8.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    height: 300px;
+    width: 200px;
+    margin-left: 20vw;
+}
+.dois{
+    background-image: url(/fundos/Isa\ 9.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    height: 300px;
+    width: 200px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.três{
+    background-image: url(/fundos/Isa\ 10.jpg);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    height: 300px;
+    width: 200px;
+    
+}
+@media screen and (max-width: 500px){
+
+    #GRANDE{
+        background-image: url(/fundos/Isa\ 11.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
+        background-attachment: fixed;
+    }
+    #text1{
+        float: none;
+        text-align: center;
+    }
+
+    #text2{
+        float: none;
+        text-align: center;
+    }
+
+    #text3{
+        float: none;
+        text-align: center;
+    }
+    .foto{
+        display: block;
+        position: relative;
+        margin: auto;
+    }
+    
+    .um{
+        background-image: url(/fundos/Isa\ 8.jpg);
+        background-repeat: no-repeat;
+        background-size: 200px;
+        height: 300px;
+        width: 200px;
+        margin-left: auto;
+    }
+    .dois{
+        background-image: url(/fundos/Isa\ 9.jpg);
+        background-repeat: no-repeat;
+        background-size: 200px;
+        height: 300px;
+        width: 200px;
+        margin-left: auto;
+    }
+    .três{
+        background-image: url(/fundos/Isa\ 10.jpg);
+        background-repeat: no-repeat;
+        background-size: 200px;
+        height: 300px;
+        width: 200px;
+        margin-left: auto;
+    }
+}
