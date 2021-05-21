@@ -18,13 +18,15 @@ a{
     font-size: 70px;
     font-variant: small-caps;
 }
-#GRANDE{
+header{
     background-image: url(/fundos/Isa\ 11.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    
+    width: 90%;
+    height: 300px;
+    margin: auto;
     
 }
 #text{
@@ -61,37 +63,32 @@ a{
     font-size: 70px;
 }
 .foto{
-    display: inline-block;
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 200px;
 }
 .um{
-    background-image: url(/fundos/Isa\ 8.jpg);
-    background-repeat: no-repeat;
-    background-size: 200px;
     height: 300px;
     width: 200px;
-    margin-left: 20vw;
+    margin-left: 180%;
+    margin-right: 20px;
 }
 .dois{
-    background-image: url(/fundos/Isa\ 9.jpg);
-    background-repeat: no-repeat;
-    background-size: 200px;
-    height: 300px;
-    width: 200px;
-    margin-left: 10vw;
-    margin-right: 10vw;
-}
-.três{
-    background-image: url(/fundos/Isa\ 10.jpg);
-    background-repeat: no-repeat;
-    background-size: 200px;
+    
     height: 300px;
     width: 200px;
     
 }
+.três{
+    height: 300px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
 @media screen and (max-width: 500px){
 
-    #GRANDE{
+    header{
         background-image: url(/fundos/Isa\ 11.jpg);
         background-repeat: no-repeat;
         background-size: contain;
